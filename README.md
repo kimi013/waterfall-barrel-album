@@ -20,14 +20,14 @@ var config = {
 ```
 
 - container：向该元素中渲染
-- imgsArr 表示图片的数据，以 JSON 形式表示：
+- imgsArr 表示图片的数据的数组，以 JSON 形式表示：
 ```js
 [
   {
     url: 'http://xxx.com/xx.jpg',
     width: XX,
     height: XX
-  }
+  }
 ]
 ```
 - demoType：展示形式，waterfall 或 barrel
