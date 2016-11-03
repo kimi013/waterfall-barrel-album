@@ -18,7 +18,7 @@ var config = {
 ```
 其中 optionValue 的值在瀑布流中表示 column 数量，在木桶布局中表示初始高度。spaceValue 表示图片间距。
 imgsArr 表示图片的数据，以 JSON 形式表示：
-```json
+```js
 [
   {
     url: 'http://xxx.com/xx.jpg',
