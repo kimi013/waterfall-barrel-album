@@ -38,3 +38,9 @@ npm start
 ```
 浏览器自动打开['http://localhost:8000'](http://localhost:8000)
 
+部署：
+```
+npm deploy 
+// or
+npm deploy-windows
+```
