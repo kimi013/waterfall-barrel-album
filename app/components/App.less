@@ -4,22 +4,25 @@
 }
 
 #container {
-  margin-left: 5px;
-  margin-right: 5px;
   zoom: 1;
 
+  margin-right: 5px;
+  margin-left: 5px;
   &::after {
-    content: '';
     display: block;
     clear: both;
+
+    content: '';
   }
 }
 
 .controller {
   .title {
+    font-size: 12px;
+
     display: inline-block;
 
-    width: 9rem;
+    width: 10rem;
 
     text-align: right;
     text-transform: capitalize;
@@ -31,6 +34,7 @@
   }
   input {
     font-family: 'Microsoft YAHEI', 'Arial';
+    font-size: 12px;
 
     margin: 3px 2px 3px 6px;
     padding: 2px;

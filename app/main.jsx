@@ -9,8 +9,8 @@ var config = {
   container: container,
   imgsArr: imgsArrTest,
   option: {
-    demoType: 'barrel',
-    optionValue: 300, // colNum or initialHeight
+    demoType: 'waterfall',
+    optionValue: 4, // colNum or initialHeight
     spaceValue: 10
   }
 };
