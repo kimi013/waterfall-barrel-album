@@ -5,12 +5,12 @@
 [DEMO](https://kimi013.github.io/waterfall-barrel-album/)
 
 ## 使用方法
-
-在 app/main.jsx 设置参数
+### 参数设置
+在 app/main.jsx 中设置参数
 ```js
 var config = {
-  container: container,
-  imgsArr: imgsArrTest,
+  container: document.getElementById('container'),
+  imgsArr: ,
   option: {
     demoType: 'waterfall',
     optionValue: 4, // colNum or initialHeight
@@ -19,8 +19,8 @@ var config = {
 };
 ```
 
-其中 optionValue 的值在瀑布流中表示 column 数量，在木桶布局中表示初始高度。spaceValue 表示图片间距。
-imgsArr 表示图片的数据，以 JSON 形式表示：
+- container：向该元素中渲染
+- imgsArr 表示图片的数据，以 JSON 形式表示：
 ```js
 [
   {
@@ -30,13 +30,17 @@ imgsArr 表示图片的数据，以 JSON 形式表示：
   }
 ]
 ```
+- demoType：展示形式，waterfall 或 barrel
+- optionValue：在瀑布流中表示 column 数量，在木桶布局中表示初始高度
+- spaceValue：图片间距
+
 
 本地运行：
 ```
 npm install
 npm start
 ```
-浏览器自动打开['http://localhost:8000'](http://localhost:8000)
+浏览器自动打开 [http://localhost:8000](http://localhost:8000)
 
 部署：
 ```
